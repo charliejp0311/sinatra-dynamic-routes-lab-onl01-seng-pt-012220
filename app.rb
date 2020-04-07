@@ -35,6 +35,8 @@ class App < Sinatra::Base
     when 'divide'
       @divide = params[:number1].to_i / params[:number2].to_i
       "#{@divide.to_s}"
+    else
+      "\\__(oo)__/"
     end
   end
 end
